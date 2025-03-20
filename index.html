@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Site</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .heading h1 {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            font-size: 3rem;
+            color: #4A90E2;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .heading h3 {
+            color: #fff;
+            font-size: 2rem;
+        }
+
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-10px);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.1); /* Slight zoom-in effect */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>John's Site</h1>
+        <h3>Welcome!</h3>
+    </div>
+
+    <div class="section">
+        <h5>I am John Pope and I am a student at Millennium high school</h5>
+        <img src="PHS.jpg"> 
+        <p> I am a senior here and my 3rd year in the Piedmont school district. Millennium high has been a great place and I have found many great people to interact with. I also do great with my academics and have submitted my applications for college and am starting to hear back from some. </p>
+    </div>
+
+    <div class="section">
+        <h3>Extracurriculars 24-25</h3>
+        <img src="volunteer-food-bank.jpg">
+        <p>I enjoy helping others and I do this through my community service activities like volunteering at the food bank.</p>
+    </div>
+
+    <div class="movie">
+        <img src="movie.jpg" height="20%" width="20%">
+        <p>This is Interstellar, one of my favorite movies of all time. It's a really compelling story about an astronaut who has to sacrifice himself to save the world. We follow him as he explores the universe looking for a new planet for the human race to live.</p>
+    </div>
+
+    <footer>
+        <p>© 2025 John's Site. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
